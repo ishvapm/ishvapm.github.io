@@ -18,7 +18,7 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "Home"}
   - {file: "README.md", title: "About Me"}
-   - {title: "Resume", url: linkedin.com/in/ishvapm}
+   - {title: "Resume", url: "linkedin.com/in/ishvapm"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:ishva.mehta@rutgers.edu"}
