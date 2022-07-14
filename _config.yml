@@ -17,7 +17,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: "Home"}
-  - {title: "Linkedin", url: "linkedin.com/in/ishvapm"}
+  - {title: "Linkedin", url: "https://linkedin.com/in/ishvapm"}
   - {title: "Github", url: "https://github.com/ishvapm/"}
 #  - {file: "README.md", title: "About Me"}
   - {title: "Blog", url: "https://medium.com/@ishvapm"}
