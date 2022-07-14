@@ -20,7 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Linkedin", url: "https://linkedin.com/in/ishvapm"}
   - {title: "Github", url: "https://github.com/ishvapm/"}
 #  - {file: "README.md", title: "About Me"}
-  - {title: "Blog", url: "https://medium.com/@ishvapm"}
+# - {title: "Blog", url: "https://medium.com/@ishvapm"}
   
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:ishva.mehta@rutgers.edu"}
