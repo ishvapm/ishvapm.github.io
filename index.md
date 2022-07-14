@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "Home"
 ---
 Hi there! 👋
 I'm Ishva, a student at Rutgers University-NB. My personal mission is to empower others to achieve their goals through my work and experiences.
