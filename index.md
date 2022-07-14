@@ -11,5 +11,6 @@ I'm Ishva, a student at Rutgers University-NB. My personal mission is to empower
  - encouraging reading, literacy and community care by working at the [Plainsboro Public Library]{https://plainsborolibrary.org}.
  - enjoying learning at Rutgers!
 
- Previously, I
- - 
+Reach out to me @ ishva[dot]mehta[at]rutgers[dot]edu or @ishvapm across platforms to learn more about my work or just chat ^_^
+
+
