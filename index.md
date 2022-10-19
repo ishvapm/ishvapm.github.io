@@ -7,11 +7,13 @@ I'm Ishva, a student at Rutgers University-NB. My overarching mission in life is
 
  Currently, I'm
  - advising youth-focused start-up founders and innovators on strategy, marketing to Gen Z, and UX at the [HeadStream Innovation Accelerator](https://www.headstreaminnovation.com).
+ - working on launching gamified Civics education resources for educators at [iCivics](https://icsl.icivics.org).
  - working on creating and sharing free, interactive, digital English-learning resources thru [Write & Co](https://writenco.org).
  - encouraging reading, literacy and community care by working at the [Plainsboro Public Library](https://plainsborolibrary.org).
  - enjoying learning at Rutgers!
 
 Previously, I
+- worked with [Girl Scouts Of the USA - Overseas Department](https://usagso.org) to digitize and launch their signature Cookie Sales program in American military bases and territories abroad.
 - worked with [Center for Supportive Schools (CSS)](https://www.supportiveschools.org/) to extract and interpret data on mental health and HIB (harassment, intimidation, bullying) in NY-area highschools to subsequently create research-backed anti-HIB infographics & workbooks for CSS & NYCDOE.
 - created and pitched [Write & Co](https://writenco.org), a grassroots ed-tech solution through user-testing and feedback from industry leaders, stakeholders, project sponsors to combat pandemic-induced learning loss and consequent dropping literacy rates in K-5 children.
 - lead daily one-on-one virtual Math tutoring sessions with middle school students from an inner-city school in California and fostered belonging and established a psychologically safe environment through daily learning goals, lesson plans, and fundamental numeracy skills thru a fellowship at [Teach For America](https://teachforamerica.org).
