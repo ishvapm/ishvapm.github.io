@@ -1,0 +1,416 @@
+body, html {
+margin: 0;
+padding: 0;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: #ffff;
+margin: 0px;
+text-align: center;
+}
+main {
+flex: 1;
+}
+
+.container {
+max-width: 1180px;
+width: calc(100% - 80px);
+margin: 0 auto;
+}
+
+header {
+background-color: #ffff;
+color: black;
+padding: 10px 0 ;
+text-align: center;
+}
+
+.header-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.header-content .logo img {
+padding-top: 20px;
+max-width: 200px;
+height: auto;
+}
+
+nav {
+text-align: center;
+width: 100%;
+}
+
+nav ul {
+list-style-type: none;
+display: flex;
+justify-content: center;
+gap: 100px;
+}
+
+nav li {
+margin: 0;
+}
+
+nav a {
+color: black;
+text-decoration: none;
+padding: 5px 10px;
+}
+
+nav a:hover {
+background-color: #ffe6ea;
+color: black;
+}
+
+nav a.active {
+text-decoration: underline;
+}
+
+main {
+background-color: #ffff;
+}
+
+.section {
+padding: 40px 0;
+text-align: left
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffe6ea; /* Light pink background for visibility */
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Adds spacing between icons */
+}
+
+footer a {
+  color: black; /* Ensures icons are visible */
+  font-size: 28px; /* Adjusts icon size */
+  text-decoration: none; /* Removes underline from links */
+}
+
+footer a:hover {
+  color: rgb(33, 48, 101); /* Changes icon color on hover */
+}
+
+/* Set link hover color */
+a:hover {
+text-decoration: underline;
+}
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+align-items: center;
+justify-content: center;
+padding-bottom: 20px;
+}
+
+.column {
+max-width: 30%;
+padding: 0 4px;
+}
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+.column {
+flex: 50%;
+max-width: 50%;
+}
+}
+
+/* Unstacks the 2 columns */
+@media screen and (max-width: 600px) {
+.column {
+flex: 100%;
+max-width: 100%;
+}
+}
+.projects-grid {
+display:inline;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.project-item {
+max-width: 100%;
+background-color: #f0f0f0;
+padding: 20px;
+text-align: center;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding-right: 100px;
+}
+
+.project-item img {
+max-width: 80%;
+border-radius: 8px;
+}
+
+.project-description {
+margin-top: 15px;
+text-align: left;
+}
+
+.project-description h3 {
+font-size: 1.5rem;
+margin-bottom: 10px;
+}
+
+.project-description p {
+font-size: 1rem;
+color: #666;
+line-height: 1.4;
+}
+
+.project-description .btn {
+display: inline-block;
+margin-top: 10px;
+padding: 8px 16px;
+background-color: black;
+color: white;
+text-decoration: none;
+border-radius: 4px;
+transition: background-color 0.3s ease;
+}
+
+.project-description .btn:hover {
+background-color: #a0b0e7;
+
+}
+.title{
+font-size: 40px;
+text-align: center;
+}
+
+/* Content Wrapper for main section */
+.content-wrapper {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap; /* Allows wrapping for smaller screens */
+gap: 20px; /* Adds spacing between image and text */
+}
+
+/* Headshot styling */
+.headshot {
+max-width: 200px;
+border-radius: 50%; /* Circular image */
+flex-shrink: 0; /* Prevents image from shrinking */
+}
+
+/* Text content styling */
+.text-content {
+flex: 1; /* Allows text to take up available space */
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+.content-wrapper {
+flex-direction: column; /* Stack image above text */
+align-items: center; /* Center-align content */
+text-align: center; /* Center-align text */
+padding: 0 20px; /* Add padding on smaller screens */
+}
+
+.headshot {
+margin-bottom: 20px; /* Add space below the image */
+}
+}
+
+
+.blog-list {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 24px;
+max-width: 1120px;
+margin: 0 auto;
+}
+
+.blog-card {
+background-color: #f8f8f8;
+border-radius: 8px;
+text-align: left;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+overflow: hidden;
+display: grid;
+grid-template-columns: minmax(0, 1fr) 180px;
+align-items: stretch;
+}
+
+.blog-preview {
+width: 100%;
+height: 100%;
+min-height: 170px;
+object-fit: cover;
+display: block;
+}
+
+.blog-card-content {
+padding: 25px;
+}
+
+.blog-card h2 {
+font-size: 1.8rem;
+margin: 0 0 10px;
+}
+
+.blog-card p {
+font-size: 1rem;
+color: #333;
+line-height: 1.5;
+}
+
+.blog-date {
+font-size: 0.9rem;
+color: #666;
+margin-bottom: 8px;
+}
+
+.blog-card .btn {
+display: inline-block;
+margin-top: 10px;
+padding: 8px 16px;
+background-color: black;
+color: white;
+text-decoration: none;
+border-radius: 4px;
+transition: background-color 0.3s ease;
+}
+
+.blog-card .btn:hover {
+background-color: #a0b0e7;
+}
+
+
+@media screen and (max-width: 600px) {
+.container {
+width: calc(100% - 28px);
+}
+
+.work-controls {
+margin-bottom: 20px;
+}
+
+nav ul {
+gap: 30px;
+padding: 0;
+}
+
+.blog-list {
+grid-template-columns: 1fr;
+gap: 18px;
+}
+
+.blog-card {
+grid-template-columns: 1fr;
+}
+
+.blog-preview {
+grid-row: 1;
+height: auto;
+aspect-ratio: 16 / 9;
+min-height: 0;
+}
+
+.blog-card-content {
+grid-row: 2;
+}
+
+.section {
+padding: 30px 16px;
+}
+
+.blog-card {
+margin: 0 16px;
+}
+}
+
+
+.work-controls {
+max-width: 1120px;
+margin: 0 auto 28px;
+display: grid;
+gap: 14px;
+}
+
+.work-search {
+width: 100%;
+padding: 12px 14px;
+border: 1px solid #ddd;
+border-radius: 6px;
+font: inherit;
+}
+
+.tag-filters,
+.post-tags {
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+}
+
+.tag-filter,
+.post-tags span {
+border: 1px solid #ddd;
+background-color: white;
+color: #333;
+border-radius: 999px;
+padding: 6px 10px;
+font-size: 0.9rem;
+}
+
+.tag-filter {
+cursor: pointer;
+font: inherit;
+}
+
+.tag-filter.active,
+.tag-filter:hover {
+background-color: #ffe6ea;
+border-color: #ffe6ea;
+}
+
+.post-tags {
+margin: 12px 0 4px;
+}
+
+.post-tags span {
+background-color: #fff;
+font-size: 0.82rem;
+}
+
+
+@media screen and (max-width: 600px) {
+.work-controls {
+margin-bottom: 20px;
+}
+
+.tag-filters {
+justify-content: center;
+}
+}
+
+
+.empty-message {
+text-align: center;
+color: #666;
+margin: 30px auto 0;
+}
