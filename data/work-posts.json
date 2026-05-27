@@ -1,11 +1,11 @@
 [
   {
-    "title": "Hello World",
-    "date": "May 22, 2026",
-    "summary": "My first blog post, written in Notion.",
-    "url": "https://www.notion.so/Hello-World-56f268b51b0b4dfc8de5214fe162db5b?source=copy_link",
-    "image": "images/ipm_headshot.jpg",
-    "imageAlt": "Hello World preview image",
-    "tags": []
+    "title": "Food Insecurity and Consumer Pessimism",
+    "date": "May 27, 2026",
+    "summary": "on NY Fed's Liberty Street Economics Blog with Gizem Kosar and Wilbert van der Klaauw",
+    "url": "https://libertystreeteconomics.newyorkfed.org/2026/05/food-insecurity-and-consumer-pessimism/",
+    "image": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2026/05/LSE_2026_food-insecurity_vanderklaauw_460.jpg",
+    "imageAlt": "LSE 2026 Food Insecurity Image",
+    "tags": [micro, policy]
   }
 ]
