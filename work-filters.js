@@ -46,7 +46,7 @@ function renderCards() {
           '<h2>' + escapeHtml(post.title) + '</h2>' +
           '<p>' + escapeHtml(post.summary) + '</p>' +
           (visibleTags ? '<div class="post-tags">' + visibleTags + '</div>' : '') +
-          '<a class="btn" href="' + escapeHtml(post.url) + '" target="_blank" rel="noopener noreferrer">Read on Notion</a>' +
+          '<a class="btn" href="' + escapeHtml(post.url) + '" target="_blank" rel="noopener noreferrer">Learn More</a>' +
         '</div>' +
         '<img class="blog-preview" src="' + escapeHtml(post.image) + '" alt="' + escapeHtml(imageAlt) + '">' +
       '</article>';
