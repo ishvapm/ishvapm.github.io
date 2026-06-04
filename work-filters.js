@@ -23,6 +23,15 @@ function tagLabel(tag) {
   return tag.charAt(0).toUpperCase() + tag.slice(1);
 }
 
+function renderSummary(summary) {
+  const escaped = escapeHtml(summary);
+  const linked = escaped.replace(
+    /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
+    '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>',
+  );
+  return linked.replace(/\n/g, '<br>');
+}
+
 async function loadPosts() {
   const response = await fetch('data/work-posts.json');
   posts = await response.json();
@@ -44,9 +53,9 @@ function renderCards() {
         '<div class="blog-card-content">' +
           '<p class="blog-date">' + escapeHtml(post.date) + '</p>' +
           '<h2>' + escapeHtml(post.title) + '</h2>' +
-          '<p>' + escapeHtml(post.summary) + '</p>' +
+          '<p class="post-summary">' + renderSummary(post.summary) + '</p>' +
           (visibleTags ? '<div class="post-tags">' + visibleTags + '</div>' : '') +
-          '<a class="btn" href="' + escapeHtml(post.url) + '" target="_blank" rel="noopener noreferrer">Learn More</a>' +
+          '<a class="btn" href="' + escapeHtml(post.url) + '" target="_blank" rel="noopener noreferrer">Read on Notion</a>' +
         '</div>' +
         '<img class="blog-preview" src="' + escapeHtml(post.image) + '" alt="' + escapeHtml(imageAlt) + '">' +
       '</article>';
