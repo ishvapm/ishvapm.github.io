@@ -1,14 +1,5 @@
 [
   {
-    "title": "Key takeaways on overcoming polarization to help working families",
-    "date": "April 8, 2024",
-    "summary": "A short description.\nCovered by [Reuters](https://reuters.com), [CNN](https://cnn.com).",
-    "url": "https://www.brookings.edu/articles/key-takeaways-on-overcoming-polarization-to-help-working-families/",
-    "image": "https://www.brookings.edu/wp-content/uploads/2024/04/Grose-Torrico-Butler-MacGuineas-panel-WEB-CROP.jpg",
-    "imageAlt": "Brookings Blog Post Image",
-    "tags": ["Policy"]
-  },
-  {
     "title": "Food Insecurity and Consumer Pessimism",
     "date": "May 27, 2026",
     "summary": "On NY Fed's Liberty Street Economics Blog with Gizem Kosar and Wilbert van der Klaauw.\nCovered by [Reuters](https://www.reuters.com/markets/wealth/ny-fed-finds-remarkable-increase-food-insecurity-many-americans-2026-05-27/), [CNN](https://www.cnn.com/2026/05/27/economy/us-food-insecurity-economic-sentiment), [Investing.com](https://www.investing.com/news/economy-news/ny-fed-finds-remarkable-increase-in-food-insecurity-for-many-americans-4712641), [The Hill](https://thehill.com/business/personal-finance/5897598-food-insecurity-new-york-fed/), [CNBC](https://www.cnbc.com/2026/05/27/new-york-fed-food-insecurity-worsens-amid-k-shaped-economic-divide.html), [NPR](https://www.npr.org/2026/05/27/nx-s1-5836441/food-insecurity-economy-new-york-fed), [CBS Local Texas](https://www.cbsnews.com/texas/video/u-s-food-insecurity-surges-as-more-families-struggle-to-afford-basics/), [Fortune](https://fortune.com/2026/05/28/americans-going-hungry-new-york-fed-says/).",
@@ -16,5 +7,14 @@
     "image": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2026/05/LSE_2026_food-insecurity_vanderklaauw_460.jpg",
     "imageAlt": "LSE 2026 Food Insecurity Image",
     "tags": ["Micro", "Policy"]
+  },
+  {
+    "title": "Key takeaways on overcoming polarization to help working families",
+    "date": "April 8, 2024",
+    "summary": "For Center for Economic Security and Opportunity at The Brookings Institution",
+    "url": "https://www.brookings.edu/articles/key-takeaways-on-overcoming-polarization-to-help-working-families/",
+    "image": "https://www.brookings.edu/wp-content/uploads/2024/04/Grose-Torrico-Butler-MacGuineas-panel-WEB-CROP.jpg",
+    "imageAlt": "Brookings Blog Post Image",
+    "tags": ["Policy"]
   }
 ]
