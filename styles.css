@@ -2,7 +2,7 @@ body {
 background-color: #fff;
 padding: 50px;
 font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-color: #727272;
+color: #000000;
 font-weight: 400;
 }
 
@@ -33,7 +33,7 @@ font-size: 28px;
 }
 
 h2 {
-color: #393939;
+color: #000000;
 }
 
 a {
@@ -135,7 +135,7 @@ margin: 0 0 20px;
 }
 
 em {
-color: #727272;
+color: #000000;
 }
 
 @media print, screen and (max-width: 960px) {
