@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
 :root {
---accent: #8f1838;
---accent-dark: #5f0f25;
+--accent: #f26a21;
+--accent-dark: #b94109;
 --text: #2a2a2a;
 --muted: #666;
---line: #ead4da;
---soft: #fbf7f8;
+--line: #f4d8c8;
+--soft: #fff7f1;
 }
 
 * {
@@ -15,7 +17,7 @@ body {
 margin: 0;
 background: #fff;
 color: var(--text);
-font: 15px/1.62 "Helvetica Neue", Helvetica, Arial, sans-serif;
+font: 15px/1.62 "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
